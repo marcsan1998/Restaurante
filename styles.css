@@ -1,0 +1,106 @@
+/* styles.css */
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #8B0000; /* cor vermelha, semelhante à bandeira italiana */
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #8B0000; /* cor vermelha, semelhante à bandeira italiana */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilos específicos para cada página */
+
+/* Página Home */
+.banner {
+    background-image: url('pizza-banner.jpg'); /* imagem de fundo com uma pizza, por exemplo */
+    background-size: cover;
+    text-align: center;
+    padding: 100px 20px;
+    color: white;
+}
+
+.banner h2 {
+    margin-bottom: 20px;
+}
+
+/* Página de Cadastro */
+.cadastro {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.cadastro form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cadastro label {
+    margin-bottom: 10px;
+}
+
+.cadastro input[type="text"],
+.cadastro input[type="email"] {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.cadastro button {
+    padding: 10px 20px;
+    background-color: #8B0000; /* cor vermelha, semelhante à bandeira italiana */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cadastro button:hover {
+    background-color: #A52A2A; /* cor mais escura para efeito de hover */
+}
+
+/* Página de Contato */
+.contato {
+    text-align: center;
+    padding: 50px 20px;
+}
